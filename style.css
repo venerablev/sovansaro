@@ -1,0 +1,82 @@
+/* General page setup */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d9d9d9;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+}
+
+/* Profile image */
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: -75px;
+    background-color: white;
+}
+
+/* Profile name */
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 22px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Social media buttons */
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.telegram-btn {
+    background-color: #0088cc;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+}
+
+.youtube-btn {
+    background-color: #ff0000;
+}
+
+.tiktok-btn {
+    background-color: #000000;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
